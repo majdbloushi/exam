@@ -1,0 +1,135 @@
+/* جذي نكتب التعليقات
+وعادي بأكثر من سطر
+*/
+
+/* عشان نعدل كلاس مخصص احنا سويناه لازم نبدأ بنقطه واسم الكلاس */
+.class_name{
+    color:aliceblue;
+}
+
+/* عشان نعدل آيدي مخصص احنا سويناه لازم نبدأ بهاشتاق واسم الآيدي */
+#id_name{
+    color:aliceblue;
+}
+
+/* التاقات الطبيعية ما يحتاج نكتب قبلهم شي */
+body{
+    color: #000;
+}
+
+h1{
+    color:aqua;
+}
+
+/* اهم الخصائص الي نحتاجها */
+body{
+    /* حق نوع الخط */
+    font-family: Arial, sans-serif;
+    /* حق حجم الخط */
+    font-size: large;
+    font-size: 10px;
+    /* 
+    xx-large
+    x-large
+    larger
+    large
+    medium
+    small
+    smaller
+    x-small
+    xx-small
+    او نقدر نحدد بنفسنا: مثلا 20px
+    */
+
+    /* عشان نغير لون الخلفية */
+    background-color: white;
+    
+    /* عشان اذا نبي الشي مخفي او يبين
+    visible
+    hidden
+    */
+    visibility: visible;
+    
+    /* عشان نخلي الخط مايل او عدل 
+    normal
+    italic
+    */
+    font-style: italic;
+
+    /* عشان نحدد اذا الخط متين ولا عادي
+    bold
+    normal
+    */
+    font-weight: bold;
+
+    /* عشان نحدد اتجاه النص يمين ولا يسار 
+    left
+    right
+    center
+    */
+    text-align: right;
+
+    /* عشان نحدد اذا الحروف كبار او صغار
+    lowercase
+    capitalize
+    uppercase
+    */
+    text-transform: capitalize;
+
+    /* اذا نبي نزين النص
+    overline => نحط خط فوقه
+    dashed => مادري شسوي
+    dotted => ينقط على الكلام
+    line-through => يمرر خط على الكلام
+    underline => يحط خط تحته
+    */
+
+    text-decoration:underline;
+    /* اذا نبي نضيف حدود حق اي شي 
+    هذا يستخدم اذا عشان نكتب كل الخصائص فيه فمانحتاج الثانين
+    */
+    border: #000; /* الخصائص*/
+
+    /* حجم الحدود */
+    border-width:2px;
+    /* شكل الحدود
+    groove => يصير خطين فوق بعض
+    dashed => شخطات
+    dotted => منقط
+    solid => خط طبيعي
+    */
+    border-style:solid;
+    
+    /* لون الحدود */
+    border-color:aqua;
+    
+    /* هذا يدني العنصر عن كل شي */
+    margin:5px;
+    
+    /* هذا يدني كل شي عنه */
+    padding:10px;
+
+    /* هذا يخلي العنصر يمين الصفحه او يسارها
+    right
+    left
+    none
+    */
+    float:right;
+    
+    /* توافق العنصر مع الصفحة 
+    absolute => حطه فوق العناصر
+    relative => يوخره عنهم
+    static => ثابت
+    */
+    position:absolute;
+
+    /* مادري شفايدة امه 
+    inherit
+    auto
+    index
+    initial
+    unset
+    */
+    z-index:unset;
+
+}
